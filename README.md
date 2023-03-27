@@ -8,10 +8,10 @@ Cohort: FED306
 
 [Github URL](https://github.com/nobdey92)
 
-[Email](jordan_hobdey@hotmail.co.uk)
+[My Personal Email](jordan_hobdey@hotmail.co.uk)
 
 ## Projects I have worked on
 
-- [link](https://github.com/nobdey92/My-Project)
-- [link](https://url.com)
-- [link](https://url.com)
+- [GitHub Link](https://github.com/nobdey92/My-Project)
+- [Blank link](https://url.com)
+- [Blank link](https://url.com)
