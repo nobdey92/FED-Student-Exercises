@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form,
+        fieldset {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <section>
+        <form action="https://www.google.com/">
+            <label for="fName">First Name</label>
+            <input type="text" name="fName" id="fName" placeholder="Type First Name Here">
+            <label for="lName">Last Name</label>
+            <input type="text" name="lName" id="lName" placeholder="Type Name Here">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Type Email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Type Password" minlength="8" required>
+            <label for="Comments">Is there anything missing?</label>
+            <textarea name="missingInfo" id="missingInfo" cols="10" rows="10"
+                placeholder="Type anything you belive to be missing here"></textarea>
+            <button type="Submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
+
+<!--
+    https://www.google.com/?
+    fName=Jordan&
+    lName=Hobdey
+    &email=jordan_hobdey%40hotmail.co.uk
+    &password=nicetrybub123
+    &missingInfo=It+must+have+everything+surely+%3F
+-->
