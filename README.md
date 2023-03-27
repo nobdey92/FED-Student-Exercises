@@ -12,6 +12,6 @@ Cohort: FED306
 
 ## Projects I have worked on
 
-- [GitHub Link](https://github.com/nobdey92/My-Project)
+- [GitHub Link to my Project 1st website](https://github.com/nobdey92/My-Project)
 - [Blank link](https://url.com)
 - [Blank link](https://url.com)
