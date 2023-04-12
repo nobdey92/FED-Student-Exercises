@@ -1,0 +1,124 @@
+:root {
+    font-size: 16px;
+
+    --bgColor: hsl(0, 0%, 0%);
+    --onBgColor: hsl(0, 0%, 100%);
+    --navColor: hsl(0, 100%, 50%);
+    --otherColor: hsl(120, 100%, 50%);
+
+    --sizeXs: 1rem;
+    --sizeSm: calc(var(--sizeXs) * 1.5);
+    --sizeMd: calc(var(--sizeSm) * 1.5);
+    --sizeLg: calc(var(--sizeMd) * 1.5);
+    --sizeXl: calc(var(--sizeLg) * 1.5);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+    color: var(--onBgColor);
+    background-color: var(--bgColor);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    padding: var(--sizeXs);
+    background-color: var(--navColor);
+    color: var(--otherColor);
+}
+
+header div h1 {
+    text-align: center;
+    padding: var(--sizeXs);
+    font-size: var(--sizeLg);
+    text-decoration: underline;
+}
+
+header div nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header div nav ul li a {
+    text-decoration: none;
+    color: var(--otherColor);
+    font-size: var(--sizeSm);
+}
+
+header div nav ul li a:hover {
+    color: var(--onBgColor);
+    background-color: var(--bgColor);
+    border-radius: 1rem;
+}
+
+/* Main Body */
+h2,
+h3 {
+    text-align: center;
+    color: var(--otherColor);
+    font-size: var(--sizeMd);
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    font-size: var(--sizeSm);
+}
+
+/* Footer */
+footer {
+    color: var(--otherColor);
+    background-color: var(--navColor);
+}
+
+footer div h1 {
+    text-align: center;
+    padding: var(--sizeXs);
+    font-size: var(--sizeLg);
+    text-decoration: underline;
+}
+
+/* Desktop Screen*/
+
+@media screen and (min-width: 65rem) {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header {
+        min-width: 20rem;
+    }
+
+    header div h1 {
+        text-align: center;
+        padding: var(--sizeXs);
+        font-size: var(--sizeLg);
+        text-decoration: underline;
+    }
+
+    header div nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        display: none;
+    }
+}
